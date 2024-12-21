@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Tailwindcss{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-style: bold;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index:1000;
+}
+.Tailwindcss .logo{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 2%;
+}
+.link{
+    padding: 10px 20px ;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.links{
+    padding: 10px 20px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    gap: 20px;
+}
+.first{
+    background: url(darkbluecolor.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+.first h1{
+    color: white;
+    font-size: xx-large;
+    font-style: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+.first p{
+    color: rgb(182, 144, 144);
+    font-style: bold;
+    font-size: large;
+    text-align: center;
+    padding-top: 20px;
+}
+button{
+    background-color: skyblue;
+    color: white;
+    float: center;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
